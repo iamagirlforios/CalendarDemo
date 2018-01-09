@@ -8,15 +8,53 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#import "WDCalendarContainer.h"
+#import "UIViewExt.h"
 
+@interface ViewController () <WDCalendarContainerDelegate>
+@property (nonatomic, strong) WDCalendarContainer *calendarContainer;
 @end
 
 @implementation ViewController
 
+- (WDCalendarContainer *)calendarContainer
+{
+    if (!_calendarContainer) {
+        _calendarContainer = [[WDCalendarContainer alloc] initWithFrame:CGRectMake(0, 64 + 30, self.view.width, 0)];
+        _calendarContainer.delegate = self;
+        _calendarContainer.backgroundColor = [UIColor whiteColor];
+        [self.view addSubview:_calendarContainer];
+    }
+    return _calendarContainer;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.edgesForExtendedLayout = UIRectEdgeNone;
+    
+    NSDateComponents *componnents = [[NSCalendar currentCalendar] components:(NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay) fromDate:[NSDate date]];
+    self.calendarContainer.currentShowDateCalendar = [[WDCalendarDateModel alloc] initWithYear:componnents.year
+                                                                                         month:componnents.month
+                                                                                           day:componnents.day];;
+}
+
+- (void)updateSubViewFrames{
+    self.calendarContainer.top = 44 + 64;
+}
+
+#pragma YXTCalendarContainer delegate
+- (void)calendar:(WDCalendarView *)calendar showWithHeight:(float)height{
+    //日历高度改变时
+}
+
+- (void)calendar:(WDCalendarView *)calendar didSelectedDate:(WDCalendarDateModel *)dateModel
+{
+    self.title = [NSString stringWithFormat:@"%@  %@", [dateModel toStringWithSeparatStr:@"-"], [dateModel getWeekString]];
+}
+
+- (void)calendarDidChangeToScope:(WDCalendarScope)scope{
+    //周视图和月视图改变之后
 }
 
 
