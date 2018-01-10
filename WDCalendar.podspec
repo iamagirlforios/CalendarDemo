@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WDCalendar"
-  s.version      = "1.0.0"   #库原代码的版本
+  s.version      = "1.0.1"   #库原代码的版本
   s.summary      = "WDCalendar."
   s.description  = <<-DESC
                    #日历WDCalendar
