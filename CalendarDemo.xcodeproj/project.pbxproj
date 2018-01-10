@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48F7377C2004B9E0009DE4B6 /* WDCalendarContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F7376A2004B9E0009DE4B6 /* WDCalendarContainer.m */; };
-		48F7377D2004B9E0009DE4B6 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F7376E2004B9E0009DE4B6 /* UIViewExt.m */; };
-		48F7377E2004B9E0009DE4B6 /* WDCalendarUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F7376F2004B9E0009DE4B6 /* WDCalendarUtils.m */; };
-		48F7377F2004B9E0009DE4B6 /* WDCalendarDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F737732004B9E0009DE4B6 /* WDCalendarDateModel.m */; };
-		48F737802004B9E0009DE4B6 /* WDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F737762004B9E0009DE4B6 /* WDCalendarView.m */; };
-		48F737812004B9E0009DE4B6 /* WDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F737782004B9E0009DE4B6 /* WDCalendarCell.m */; };
-		48F737822004B9E0009DE4B6 /* WDWeekCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F737792004B9E0009DE4B6 /* WDWeekCalendarView.m */; };
+		48FA71822005B67500453AB9 /* WDCalendarContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA71702005B67500453AB9 /* WDCalendarContainer.m */; };
+		48FA71832005B67500453AB9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA71742005B67500453AB9 /* UIViewExt.m */; };
+		48FA71842005B67500453AB9 /* WDCalendarUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA71752005B67500453AB9 /* WDCalendarUtils.m */; };
+		48FA71852005B67500453AB9 /* WDCalendarDateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA71792005B67500453AB9 /* WDCalendarDateModel.m */; };
+		48FA71862005B67500453AB9 /* WDCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA717C2005B67500453AB9 /* WDCalendarView.m */; };
+		48FA71872005B67500453AB9 /* WDCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA717E2005B67500453AB9 /* WDCalendarCell.m */; };
+		48FA71882005B67500453AB9 /* WDWeekCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FA717F2005B67500453AB9 /* WDWeekCalendarView.m */; };
 		878C1AA41F4EB93500787EDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878C1AA31F4EB93500787EDE /* main.m */; };
 		878C1AA71F4EB93500787EDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878C1AA61F4EB93500787EDE /* AppDelegate.m */; };
 		878C1AAA1F4EB93500787EDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878C1AA91F4EB93500787EDE /* ViewController.m */; };
@@ -23,21 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		48F7376A2004B9E0009DE4B6 /* WDCalendarContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarContainer.m; sourceTree = "<group>"; };
-		48F7376C2004B9E0009DE4B6 /* WDCalendarUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarUtils.h; sourceTree = "<group>"; };
-		48F7376D2004B9E0009DE4B6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		48F7376E2004B9E0009DE4B6 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		48F7376F2004B9E0009DE4B6 /* WDCalendarUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarUtils.m; sourceTree = "<group>"; };
-		48F737702004B9E0009DE4B6 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		48F737712004B9E0009DE4B6 /* WDCalendarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarContainer.h; sourceTree = "<group>"; };
-		48F737732004B9E0009DE4B6 /* WDCalendarDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarDateModel.m; sourceTree = "<group>"; };
-		48F737742004B9E0009DE4B6 /* WDCalendarDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarDateModel.h; sourceTree = "<group>"; };
-		48F737762004B9E0009DE4B6 /* WDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarView.m; sourceTree = "<group>"; };
-		48F737772004B9E0009DE4B6 /* WDWeekCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWeekCalendarView.h; sourceTree = "<group>"; };
-		48F737782004B9E0009DE4B6 /* WDCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarCell.m; sourceTree = "<group>"; };
-		48F737792004B9E0009DE4B6 /* WDWeekCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWeekCalendarView.m; sourceTree = "<group>"; };
-		48F7377A2004B9E0009DE4B6 /* WDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarView.h; sourceTree = "<group>"; };
-		48F7377B2004B9E0009DE4B6 /* WDCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarCell.h; sourceTree = "<group>"; };
+		48FA71702005B67500453AB9 /* WDCalendarContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarContainer.m; sourceTree = "<group>"; };
+		48FA71722005B67500453AB9 /* WDCalendarUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarUtils.h; sourceTree = "<group>"; };
+		48FA71732005B67500453AB9 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		48FA71742005B67500453AB9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		48FA71752005B67500453AB9 /* WDCalendarUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarUtils.m; sourceTree = "<group>"; };
+		48FA71762005B67500453AB9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		48FA71772005B67500453AB9 /* WDCalendarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarContainer.h; sourceTree = "<group>"; };
+		48FA71792005B67500453AB9 /* WDCalendarDateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarDateModel.m; sourceTree = "<group>"; };
+		48FA717A2005B67500453AB9 /* WDCalendarDateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarDateModel.h; sourceTree = "<group>"; };
+		48FA717C2005B67500453AB9 /* WDCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarView.m; sourceTree = "<group>"; };
+		48FA717D2005B67500453AB9 /* WDWeekCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDWeekCalendarView.h; sourceTree = "<group>"; };
+		48FA717E2005B67500453AB9 /* WDCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDCalendarCell.m; sourceTree = "<group>"; };
+		48FA717F2005B67500453AB9 /* WDWeekCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDWeekCalendarView.m; sourceTree = "<group>"; };
+		48FA71802005B67500453AB9 /* WDCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarView.h; sourceTree = "<group>"; };
+		48FA71812005B67500453AB9 /* WDCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDCalendarCell.h; sourceTree = "<group>"; };
 		878C1A9F1F4EB93500787EDE /* CalendarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		878C1AA31F4EB93500787EDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		878C1AA51F4EB93500787EDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,48 +61,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48F737692004B9E0009DE4B6 /* WDCalendar */ = {
+		48FA716F2005B67500453AB9 /* WDCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				48F7376A2004B9E0009DE4B6 /* WDCalendarContainer.m */,
-				48F7376B2004B9E0009DE4B6 /* Util */,
-				48F737712004B9E0009DE4B6 /* WDCalendarContainer.h */,
-				48F737722004B9E0009DE4B6 /* Model */,
-				48F737752004B9E0009DE4B6 /* Views */,
+				48FA71702005B67500453AB9 /* WDCalendarContainer.m */,
+				48FA71712005B67500453AB9 /* Util */,
+				48FA71772005B67500453AB9 /* WDCalendarContainer.h */,
+				48FA71782005B67500453AB9 /* Model */,
+				48FA717B2005B67500453AB9 /* Views */,
 			);
 			path = WDCalendar;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		48F7376B2004B9E0009DE4B6 /* Util */ = {
+		48FA71712005B67500453AB9 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				48F7376C2004B9E0009DE4B6 /* WDCalendarUtils.h */,
-				48F7376D2004B9E0009DE4B6 /* config.h */,
-				48F7376E2004B9E0009DE4B6 /* UIViewExt.m */,
-				48F7376F2004B9E0009DE4B6 /* WDCalendarUtils.m */,
-				48F737702004B9E0009DE4B6 /* UIViewExt.h */,
+				48FA71722005B67500453AB9 /* WDCalendarUtils.h */,
+				48FA71732005B67500453AB9 /* config.h */,
+				48FA71742005B67500453AB9 /* UIViewExt.m */,
+				48FA71752005B67500453AB9 /* WDCalendarUtils.m */,
+				48FA71762005B67500453AB9 /* UIViewExt.h */,
 			);
 			path = Util;
 			sourceTree = "<group>";
 		};
-		48F737722004B9E0009DE4B6 /* Model */ = {
+		48FA71782005B67500453AB9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				48F737732004B9E0009DE4B6 /* WDCalendarDateModel.m */,
-				48F737742004B9E0009DE4B6 /* WDCalendarDateModel.h */,
+				48FA71792005B67500453AB9 /* WDCalendarDateModel.m */,
+				48FA717A2005B67500453AB9 /* WDCalendarDateModel.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		48F737752004B9E0009DE4B6 /* Views */ = {
+		48FA717B2005B67500453AB9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				48F737762004B9E0009DE4B6 /* WDCalendarView.m */,
-				48F737772004B9E0009DE4B6 /* WDWeekCalendarView.h */,
-				48F737782004B9E0009DE4B6 /* WDCalendarCell.m */,
-				48F737792004B9E0009DE4B6 /* WDWeekCalendarView.m */,
-				48F7377A2004B9E0009DE4B6 /* WDCalendarView.h */,
-				48F7377B2004B9E0009DE4B6 /* WDCalendarCell.h */,
+				48FA717C2005B67500453AB9 /* WDCalendarView.m */,
+				48FA717D2005B67500453AB9 /* WDWeekCalendarView.h */,
+				48FA717E2005B67500453AB9 /* WDCalendarCell.m */,
+				48FA717F2005B67500453AB9 /* WDWeekCalendarView.m */,
+				48FA71802005B67500453AB9 /* WDCalendarView.h */,
+				48FA71812005B67500453AB9 /* WDCalendarCell.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 		878C1AA11F4EB93500787EDE /* CalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				48F737692004B9E0009DE4B6 /* WDCalendar */,
+				48FA716F2005B67500453AB9 /* WDCalendar */,
 				878C1AA51F4EB93500787EDE /* AppDelegate.h */,
 				878C1AA61F4EB93500787EDE /* AppDelegate.m */,
 				878C1AA81F4EB93500787EDE /* ViewController.h */,
@@ -219,14 +219,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F7377C2004B9E0009DE4B6 /* WDCalendarContainer.m in Sources */,
-				48F7377F2004B9E0009DE4B6 /* WDCalendarDateModel.m in Sources */,
+				48FA71822005B67500453AB9 /* WDCalendarContainer.m in Sources */,
+				48FA71852005B67500453AB9 /* WDCalendarDateModel.m in Sources */,
 				878C1AAA1F4EB93500787EDE /* ViewController.m in Sources */,
-				48F737802004B9E0009DE4B6 /* WDCalendarView.m in Sources */,
-				48F7377E2004B9E0009DE4B6 /* WDCalendarUtils.m in Sources */,
-				48F737812004B9E0009DE4B6 /* WDCalendarCell.m in Sources */,
-				48F7377D2004B9E0009DE4B6 /* UIViewExt.m in Sources */,
-				48F737822004B9E0009DE4B6 /* WDWeekCalendarView.m in Sources */,
+				48FA71862005B67500453AB9 /* WDCalendarView.m in Sources */,
+				48FA71842005B67500453AB9 /* WDCalendarUtils.m in Sources */,
+				48FA71872005B67500453AB9 /* WDCalendarCell.m in Sources */,
+				48FA71832005B67500453AB9 /* UIViewExt.m in Sources */,
+				48FA71882005B67500453AB9 /* WDWeekCalendarView.m in Sources */,
 				878C1AA71F4EB93500787EDE /* AppDelegate.m in Sources */,
 				878C1AA41F4EB93500787EDE /* main.m in Sources */,
 			);
